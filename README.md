@@ -1,23 +1,23 @@
 # Modelling Environment
 
-**Modelling Environment** is an application designed to help users create and simulate various models with specific data, enabling predictions of potential future changes.
+**Modelling Environment** is an application designed to help users create and simulate models using specific data values, enabling predictions of potential future changes.
 
 ## Key Features
 
-- Uses Java reflection to easily add new models without modifying the core engine logic.
-- Implements a custom annotation system to bind model fields to controller logic.
-- Supports Groovy scripts for defining custom behavior and logic, allowing runtime extensibility and experimentation without recompilation.
+- Leverages Java reflection to make it easy to add new models without changing the core engine logic
+- Includes a custom annotation system for binding model fields to controller logic
+- Supports Groovy scripts to define custom behavior and logic, enabling runtime extensibility and experimentation without recompilation
 
 ## Installation
 
-Follow these steps to install and run the **Modelling Environment** project:
+Steps to install and run the **Modelling Environment** project:
 
 1. Clone the repository to your local machine:
 ```
 git clone https://github.com/teklaos/modelling-environment.git
 ```
 
-2. Navigate into the project directory:
+2. Navigate to the project directory:
 ```
 cd modelling-environment
 ```
